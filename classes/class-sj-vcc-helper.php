@@ -1,4 +1,12 @@
 <?php 
+
+/**
+ * If this file is called directly, abort.
+ */
+if ( ! defined( 'ABSPATH' ) ) {
+	exit();
+}
+
 if ( ! class_exists( 'SJVccHelper' ) ) {
 	
 	/**
